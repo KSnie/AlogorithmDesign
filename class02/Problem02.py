@@ -13,5 +13,17 @@ def balance_split(values):
     min_difference = recursive_split(0, 0, 0)
     return min_difference
 
-values = [5, 8, 13, 27, 14]
+with open('class02/balanceNum/5.in', 'r') as file:
+    content = file.read().strip()
+    values = list(map(int, content.split()))
+
+
 print(balance_split(values))
+
+
+# 01 ANS: 44790
+# 02 ANS: 30
+# 03 ANS: 603
+# 04 ANS: 70
+# 05 ANS: 459
+
