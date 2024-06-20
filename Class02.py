@@ -1,5 +1,5 @@
-import sys
-sys.setrecursionlimit(10000) # set recursion-stack depth
+# import sys
+# sys.setrecursionlimit(10000) # set recursion-stack depth
 
 # def generating_combinations(n):
 #     count = n
